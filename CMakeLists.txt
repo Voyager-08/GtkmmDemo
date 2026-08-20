@@ -9,6 +9,8 @@ pkg_check_modules(GTKMM REQUIRED gtkmm-4.0)
 
 add_executable(${PROJECT_NAME}
     src/main.cpp
+        src/view/main_window.cpp
+        src/view/main_window.h
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE ${GTKMM_INCLUDE_DIRS})
