@@ -9,6 +9,9 @@ public:
     MainWindow();
 
 private:
+    Gtk::Button button;
+
+    void init();
 };
 
 #endif // MAIN_WINDOW_H
